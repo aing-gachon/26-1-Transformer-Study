@@ -36,6 +36,9 @@ A.ing 주니어 트랙 Transformer 세션은 Transformer에 대한 근본적인 
 
 ```
 
+## Transformer_from_scratch_blank.ipynb with colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aing-gachon/26-Spring-Transformer-Study/blob/main/Aing_Transformer_from_scratch_blank.ipynb)
+
 ## 담당자
 
 | 이름 | 이메일 |
