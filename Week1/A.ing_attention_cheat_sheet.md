@@ -14,11 +14,14 @@
 
 ## 0) 전체 구조
 
+<img width="536" height="736" alt="image" src="https://github.com/user-attachments/assets/9ba5c565-77b4-4dd7-8055-e603e40447e2" />
 
 
 ---
 
 ## 1) Scaled Dot-Product Attention ↔ `SelfAttention.forward`
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/0553682f-89f5-41f8-94b7-1a5db0fa2659" />
+
 
 | 요소 | 논문 수식/그림 | 코드 좌표 | 핵심 설명 |
 | --- | --- | --- | --- |
@@ -36,6 +39,8 @@
 ---
 
 ## 2) Multi-Head Attention (MHA) ↔ split → attention → concat → projection
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/a1f01a75-5647-4cbd-b5c4-aa747c40d052" />
+
 
 | 요소 | 논문 수식/그림 | 코드 좌표 | 핵심 설명 |
 | --- | --- | --- | --- |
