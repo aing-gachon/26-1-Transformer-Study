@@ -108,13 +108,13 @@ $$q\cdot k = \sum_{i=1}^{d_k} q_i k_i$$
 
 ---
 
-## 3. 왜 Transformer는 RNN과 Conv 대비 장거리 의존성(long-range dependency)에 유리하다고 주장하는가?
+## 3. 왜 Transformer는 RNN과 Conv 대비 장기의존성(long-range dependency)에 유리하다고 주장하는가?
 논문 Section 4와 Table 1은 self-attention, RNN(recurrent), CNN(convolution)의 **복잡도**와 **maximum path length**를 비교한다.
 
 ### (1) Maximum Path Length의 의미를 설명하시오.
 - Maximum Path Length는 입력 시퀀스에서 임의의 두 위치(토큰) 사이의 정보가 전달되기 위해 거쳐야 하는 **최대 연산 단계 수(최장 경로 길이)** 를 뜻한다.
   - 쉽게 말해, 토큰 A의 정보가 토큰 B에 영향을 주려면 네트워크 안에서 몇 번의 층/시간단계를 거쳐야 하는가?와 같다.
-- 이 경로가 길수록 forward 신호도, backward gradient도 더 많은 변환을 거치므로 **장거리 관계 학습이 어려워질 수 있다.**
+- 이 경로가 길수록 forward 신호도, backward gradient도 더 많은 변환을 거치므로 **long-range 관계 학습이 어려워질 수 있다.**
 
 **논문 근거**
 - Section 4 -> "We suspect that for large values of $d_k$, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients.
@@ -128,7 +128,7 @@ $$q\cdot k = \sum_{i=1}^{d_k} q_i k_i$$
   i → j로 가려면 중간의 모든 time step을 순서대로 거쳐야 한다(**순차 처리**).
 - **CNN:** 보통 $O(\log_k n)$ (dilated 등 설계에 따라)  
   한 층의 receptive field가 제한적이라 멀리 보려면 **여러 층을 쌓아야 한다**.
-- 따라서 self-attention은 장거리 관계를 멀리 돌아서 전달하지 않고 짧은 경로로 바로 연결해 장거리 의존성을 더 쉽게 학습[[4]](#note-4).할 수 있다.
+- 따라서 self-attention은 장거리 관계를 멀리 돌아서 전달하지 않고 짧은 경로로 바로 연결해 장기의존성을 더 쉽게 학습[[4]](#note-4).할 수 있다.
 
 <a id="note-4"></a>
 **[4] 왜 경로가 짧으면 유리한가?**  
@@ -215,4 +215,5 @@ $$p(y|x)=\prod_{t=1}^{m} p(y_t\mid y_{<t}, x)$$
 - Section 3.1 -> "We also modify the self-attention sub-layer in the decoder stack to prevent positions from attending to subsequent positions. This masking, combined with fact that the output embeddings are offset by one position, ensures that the predictions for position i can depend only on the known outputs at positions less than i."
 
 ---
+
 
