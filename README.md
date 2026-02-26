@@ -29,7 +29,7 @@ A.ing 주니어 트랙 Transformer 세션은 Transformer에 대한 근본적인 
 | 4 | 정리 | 실험 데이터 기록 | 1등 팀의 전략 발표 및 로그 분석 |
 
 ## Transformer_Youtube_Playlist
-(https://youtube.com/playlist?list=PL-PHXChFg8_tv0e8bNxYuh5VdWH0JO1sl&si=1K1-1GJuzpGGlA13)
+https://youtube.com/playlist?list=PL-PHXChFg8_tv0e8bNxYuh5VdWH0JO1sl&si=1K1-1GJuzpGGlA13
 
 ## Folder Structure
 ```text
