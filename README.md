@@ -44,11 +44,13 @@ https://youtube.com/playlist?list=PL-PHXChFg8_tv0e8bNxYuh5VdWH0JO1sl&si=1K1-1GJu
 ├─ Week 3
 │  ├─ A.ing_리그전_Transformer_Explain.md
 │  └─ A.ing_리그전_Transformer_Finetune_Multi30k_IWSLT.ipynb
-└─ readme.md
+└─ README.md
 ```
 
-## 담당자
+## Attention is all you need 논문
+https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html
 
+## 담당자
 | 이름 | 이메일 |
 |------|--------|
 | 전제오 | chris11122@gachon.ac.kr |
@@ -56,8 +58,4 @@ https://youtube.com/playlist?list=PL-PHXChFg8_tv0e8bNxYuh5VdWH0JO1sl&si=1K1-1GJu
 
 질문이나 도움이 필요하면 언제든 연락 주세요!<br>
 한 학기 동안 함께 열심히 공부해봅시다!
-
-
-
-
 
