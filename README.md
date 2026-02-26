@@ -28,28 +28,34 @@ A.ing 주니어 트랙 Transformer 세션은 Transformer에 대한 근본적인 
 | 3 | 실험 | 구현된 코드, 새 데이터 | 하이퍼파라미터 튜닝 및 리그전 |
 | 4 | 정리 | 실험 데이터 기록 | 1등 팀의 전략 발표 및 로그 분석 |
 
+## Transformer_Youtube_Playlist
+https://youtube.com/playlist?list=PL-PHXChFg8_tv0e8bNxYuh5VdWH0JO1sl&si=1K1-1GJuzpGGlA13
 
 ## Folder Structure
 ```text
 26-Spring-Transformer-Study/
-├─ readme.md
-
+├─ Week 1
+│  ├─ A.ing_Transformer_Cheat_sheet.md
+│  ├─ A.ing_Transformer_Questions.md
+│  └─ A.ing_Transformer_Questions_Answer.md
+├─ Week 2
+│  ├─ A.ing_Transformer_from_scratch_blank.ipynb
+│  └─ A.ing_Transformer_Cookbook.md
+├─ Week 3
+│  ├─ A.ing_리그전_Transformer_Explain.md
+│  └─ A.ing_리그전_Transformer_Finetune_Multi30k_IWSLT.ipynb
+└─ README.md
 ```
 
-## Transformer_from_scratch_blank.ipynb with colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aing-gachon/26-Spring-Transformer-Study/blob/main/Aing_Transformer_from_scratch_blank.ipynb)
+## Attention is all you need 논문
+https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html
 
 ## 담당자
-
 | 이름 | 이메일 |
 |------|--------|
-| 전제오 |  |
-| 이영민 |  |
+| 전제오 | chris11122@gachon.ac.kr |
+| 이영민 | dudals4087@naver.com |
 
 질문이나 도움이 필요하면 언제든 연락 주세요!<br>
 한 학기 동안 함께 열심히 공부해봅시다!
-
-
-
-
 
