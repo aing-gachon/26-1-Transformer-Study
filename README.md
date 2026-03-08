@@ -1,3 +1,4 @@
+[![CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc/4.0/)
 ## Introduction
 A.ing 주니어 트랙 Transformer 세션은 Transformer에 대한 근본적인 이해를 목표로 합니다.<br>
 단순히 모델을 가져다 쓰는 것이 아니라, 그 내부 구조와 작동 원리를 이해하고, 자신의 데이터에 맞춰 수정하고 개선할 수 있는 능력을 기르는 것을 목표로 합니다.<br>
@@ -60,3 +61,5 @@ https://youtube.com/playlist?list=PL-PHXChFg8_tv0e8bNxYuh5VdWH0JO1sl&si=1K1-1GJu
 질문이나 도움이 필요하면 언제든 연락 주세요!<br>
 한 학기 동안 함께 열심히 공부해봅시다!
 
+---
+Copyright © 2026 A.ing. Licensed under CC BY-NC 4.0.
