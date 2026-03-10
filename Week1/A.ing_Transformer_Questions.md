@@ -8,7 +8,7 @@ Attention is All you need 기반 질문 정리
 
 $$MultiHead(Q, K, V) = Concat(head_1,\dots,head_h)W^O$$
 
-각 head는 $Attention(QW_i^Q, KW_i^K, VW_i^V)$ 형태로 **서로 다른 선형변환(=서로 다른 관점)**을 가진다.
+각 head는 $Attention(QW_i^Q, KW_i^K, VW_i^V)$ 형태로 **서로 다른 선형변환(=서로 다른 관점)** 을 가진다.
 
 (1) 단일 Attention과 Multi-Head Attention의 차이를 설명하시오.  
 
@@ -54,3 +54,4 @@ $$FFN(x) = max(0, xW_1 + b_1)W_2 + b_2$$
 
 
 ---
+

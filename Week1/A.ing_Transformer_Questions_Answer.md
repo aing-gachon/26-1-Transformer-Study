@@ -188,8 +188,8 @@ $$FFN(x) = max(0, xW_1 + b_1)W_2 + b_2$$
 
 ### (1) auto-regressive 조건이 무엇인지 설명하시오.
 - Auto-regressive란 출력 시퀀스 확률을 다음처럼 인수분해하는 생성 방식이다.
-    
-$$p(y|x)=\prod_{t=1}^{m} p(y_t\mid y_{<t}, x)$$
+
+$$p(y|x)=\prod_{t=1}^{m} p(y_t \mid y_{< t}, x)$$
 
 - 즉, **t번째 토큰 예측은 이전 토큰들($y_{<t}$)과 입력($x$)에만 의존**해야 한다.
 
@@ -215,5 +215,6 @@ $$p(y|x)=\prod_{t=1}^{m} p(y_t\mid y_{<t}, x)$$
 - Section 3.1 -> "We also modify the self-attention sub-layer in the decoder stack to prevent positions from attending to subsequent positions. This masking, combined with fact that the output embeddings are offset by one position, ensures that the predictions for position i can depend only on the known outputs at positions less than i."
 
 ---
+
 
 
